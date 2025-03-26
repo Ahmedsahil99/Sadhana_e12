@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadhana, The IT-cLub</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/25dde14d68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" class="header">
+         <div class="container">
+            <nav>
+                <img src="Sadhanalogopg.png" alt="Bike" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Events</a></li>
+                    <li><a href="#portfolio">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+        
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+          
+   <!---     <div class="header-text">
+                <p style="color: black;">Welcome to</p>
+                <h1>Sadhana <span>The IT-Club</span><br>-Organizer Stranger Strings.<br></h1> <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScP0BlyWltsjYqfFaTbEX-YfGoIVbtpIOtfPyoG-m_AS862oQ/viewform?usp=dialog">
+                    <button class="apti">Begin Aptitude</button></a>
+
+            </div>
+            ---->
+            <div class="header-text">
+                <p style="color: black;">Welcome to</p>
+                <h1>Sadhana <span>The IT-Club</span><br>-Organizer Stranger Strings.<br></h1> <br>
+                <button class="apti" id="openForm">Begin Aptitude</button>
+            </div>
+            
+            <!-- Modal -->
+            <div id="formModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <iframe id="formFrame" src="" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- ------------About----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="sadan2.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About us</h1>
+                    <p>Team Stranger Strings is skilled coders who compete in multi-stage sadhana events. Each member has a unique strength, 
+                        from algorithms and backend development to front-end design. Our teamwork and problem-solving skills help us 
+                       to tackle tough challenges under tight deadlines. Over time, we have won multiple awards and gained recognition for our talent
+                        and dedication. With each competition, 
+                        we continue to learn, improve, and push our limits, making Team Stranger Strings a well-known name in the college coding scene.</p>
+               
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Organizer</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Winners</p>
+                    <p class="tab-links" onclick="opentab('Education')">Judge's</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Who?</span> <br>Stranger Strings</li>
+                        <li><span>When?</span> <br>27-03-2025</li>
+                        <li><span>Where?</span> <br>Auditorium</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Team-1</span><br>Will be announced soon</li>
+                        <li><span>Team-2</span><br>Will be announced soon</li>
+                        <li><span>Team-3</span><br>Will be announced soon</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Prof. Bharthi</span> <br>Assistant professor of MCA</li>
+                        <li><span>prof. Sujay</span> <br>Assistant professor of MCA</li>
+                        <li><span></span> <br></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------Services------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Events</h1>
+            <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <h2>Legal Clash</h2>
+                            <p>
+                                In the competition, two teams will participate simultaneously, each having 9 + 1 minutes to present their case.
+                                 Participants must thoroughly research legal principles relevant to the given topic or case. Before starting, 
+                                 each team must declare their roles, such as prosecutor, victim, lawyer, witness, plaintiff, or defense.
+                                  Each team will be assigned a specific time slot for their case presentation, which will follow a structured format, 
+                                  including Opening Statement, Presentation of Arguments, Witness Examination, Counterarguments & 
+                                  Cross-Examination, and Closing Statements.
+                                </p>
+                            <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-database"></i>
+                            <h2>SQL SPARKS</h2>
+                            <p> SQL Sparks is a competitive event where participants test their SQL skills through real-world database challenges. The competition covers complex queries, data optimization, indexing, and efficient data management techniques. Teams tackle multiple stages, solving problems that require expertise in joins, subqueries, and performance tuning. Organized by Team Stranger Strings, SQL Sparks is a highly anticipated event that brings coding enthusiasts together to showcase their problem-solving abilities and database expertise.
+                               
+                                </p>
+                            <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Coding and Decoding</h2>
+                            <p>
+                                Big Bounty was an exciting coding and decoding event where participants solved intricate puzzles and challenges using logic and programming skills. The competition tested their ability to encrypt, decrypt, and analyze patterns under time constraints. Participants showcased their problem-solving expertise, tackling complex codes with precision and speed. The event highlighted technical skills, quick thinking, and a deep understanding of cryptography and algorithms.
+                            </p>
+
+                            <a href="#">learn more</a>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Achivements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Sadhanaa.jpeg" alt="Mobile">
+                    <div class="layer">
+                        <h3>Poster Making</h3>
+                        <p>The Poster Making event was a creative competition where participants designed eye-catching brochures and posters on various themes. Team Stranger Strings showcased their exceptional design skills and creativity, crafting a visually stunning and informative brochure. Their unique concepts, artistic presentation, and attention to detail earned them 2nd place in the competition.
+                   </p>
+                            <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="centre.jpeg" alt="Mobile">
+                    <div class="layer">
+                        <h3>Debate</h3>
+                        <p>Blockchain Technology was an event where participants explored the impact, challenges, and future of blockchain in various industries. Teams engaged in insightful debates on topics like decentralization, smart contracts, security, and real-world applications. Team Stranger Strings actively participated, showcasing their deep knowledge and analytical thinking.
+                        </p>
+                    <a href="#"><i class="fa-solid fa-comments"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Sadhanaa.jpeg" alt="Mobile">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p> The Web Programming event challenged participants to develop dynamic and functional websites using various programming languages. It tested their skills in HTML, CSS, JavaScript, and backend technologies to create responsive and user-friendly designs. Teams worked under time constraints to build innovative web solutions, showcasing their coding and problem-solving abilities. </p>
+                            <a href="#"><i class="fa-solid fa-web-awesome"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore More</a>
+        </div>
+    </div>
+    <!-- ---------------Contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-sharp fa-regular fa-paper-plane"></i>StrangerStrings27@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>8792096590</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/tejal_basti__?igsh=ZHM0Y2tvYmxtaHlk"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://x.com/i/flow/login"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/manikanta_raj_1508?igsh=MThneTVtdHEybmlxOQ=="><i class="fa-brands fa-square-instagram"></i></i></a>
+                        <a href="https://www.linkedin.com/in/tejal-basti-a41831269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Result.pdf" download class="btn btn2">Download Result</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Team Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="" rows="6" placeholder="Any Queries"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Stranger Strings. Made with<i class="fa-regular fa-heart"></i> learning</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        document.getElementById("openForm").onclick = function() {
+    document.getElementById("formFrame").src = "https://docs.google.com/forms/d/e/1FAIpQLSeOPhXKwbcN8Hsk2Z25IekIo-oJoJTEzlG-4rPGhQ4feown6A/viewform?usp=dialog";
+    document.getElementById("formModal").style.display = "flex";
+};
+
+document.querySelector(".close").onclick = function() {
+    document.getElementById("formModal").style.display = "none";
+};
+
+          
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-180px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxafN9nQjY3hncZdUVWSDQ9TViW0EHuuq0Ae9aIKbaumUOZ7ef3fUKe2P6HiUKe2BWU/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+            msg.innerHTML = ""
+        },1000)
+        form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
